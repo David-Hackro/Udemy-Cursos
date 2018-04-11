@@ -13,12 +13,12 @@ implementation 'com.squareup.retrofit2:retrofit:2.4.0'
 
 ### Servicios Rest
 
-| Endpoint | Methodos  
-| ------ | ------ |
-| [/user](https://androidtutorials.herokuapp.com/) | **GET** / **POST** / **PUT** / **DELETE** |
-| [/users](https://androidtutorials.herokuapp.com/) | **GET** / **POST** | |
-| [/example](https://androidtutorials.herokuapp.com/) | **GET** |
-| [/example](https://androidtutorials.herokuapp.com/) | **GET** / **POST** | |
+| Endpoint | Methodos| Parametros    
+| ------ | ------ |------ 
+| [/user](https://androidtutorials.herokuapp.com/) | **GET** / **POST** / **PUT** / **DELETE** |  *{id_user}* | 
+| [/users](https://androidtutorials.herokuapp.com/) | **GET** / **POST** | *{id_user}* |
+| [/example](https://androidtutorials.herokuapp.com/) | **GET** | *{id_user}* |
+| [/example](https://androidtutorials.herokuapp.com/) | **GET** / **POST** | *{id_user}* |
 
 ### Documentación
 
